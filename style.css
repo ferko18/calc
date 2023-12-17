@@ -1,0 +1,78 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+} */
+
+input {
+  all: unset;
+}
+
+.container {
+  height: 100vh;
+  /* width: 300px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5d5b5b;
+}
+.item-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: #343232;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+}
+.button {
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 10px;
+  background: #343232;
+  display: flex;
+  justify-content: center;
+  cursor:pointer;
+
+  border-radius: 10px;
+background: #272626;
+box-shadow:  9px 9px 18px #1a1919,
+             -9px -9px 18px #343333;
+}
+.display {
+  border-radius: 23px;
+  background: #343232;
+  box-shadow: 10px 10px 21px #222121, -10px -10px 21px #464343;
+  width: 100%;
+  height: 80px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+.inner-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.equal {
+  flex-basis: 130px;
+}
